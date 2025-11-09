@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adilyn Rose</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body style="background-color: lightgoldenrodyellow;">
+    <div id="intro">
+        <h1>About Me!</h1>
+        <p>
+            <script> 
+document.write((new Date().getHours() < 12) ? "Good morning!" : "Good afternoon!") 
+            </script> 
+        My name is Adilyn Rose, but I go from Adi. I'm from West Jordan, Utah.</p>
+    </div>
+    <div id="textbox">
+        <h2><br/>Hobbies</h2>
+        <p>I love to play soccer and have been playing since I was three. In fourth 
+            grade, I joined a competative soccer team-- Utah Soccer Alliance (USA). I
+            also played for my high school team. Unfortunetly, I can't play as much as
+            I used to, but I might start reffing to stay involved with the game.</p>
+        <p>I also love to read, write, and draw. My favorite book series is <em>
+            Skyward</em> by Brandon Sanderson. I'm currently reading <em>The Lord of 
+            the Rings: The Two Towers</em> by J.R.R Tolkien. I also love to play video
+            games. My favorite series are <em>The Legend of Zelda</em> and <em>Metroid.</em>
+        </p>
+    </div>
+    <div id="textbox">
+        <h2><br/>Family</h2>
+        <p>In my family, there are six people: my parents, me, and three other sisters. 
+            Of them, I'm the second oldest, only younger than my twin sister. My family
+            also has a dog, a husky named Shasta, and a bunny named Black Berry.</p>
+    </div>
+    <p id="intro">Click to see my dog!</p>
+    <div id="button">
+        <button type="button" onclick="toggleImage()">Show/Hide Image</button>
+        <img src="shasta.jpeg" alt="A picture of a husky laying on the 
+        stairs with a ball in her mouth." width="400em" id="buttonImage"/> 
+    </div> 
+    <script>
+function toggleImage() {
+  var x = document.getElementById("buttonImage");
+  if (x.style.display === "none" || x.style.display === "") {
+    x.style.display = "block";
+    x.style.justifyContent = "center";
+  } else {
+    x.style.display = "none";
+  }
+}   
+    </script>
+    <div id="textbox">
+        <h2><br/>Education</h2>
+        <p>Currently, I am a student at Brigham Young Univeristy. I'm a junior studying 
+            computer science, and I'm exploring minor options. I expect to graduate 
+            April, 2028.</p>
+        <p>I graduated from Copper Hills High School. During my senior year, I took a 
+            class at the Jordan Academy for Technology and Careers. That class had a 
+            lot of hands on learning and was a lot of fun.</p>
+    </div>
+</body>
+</html>

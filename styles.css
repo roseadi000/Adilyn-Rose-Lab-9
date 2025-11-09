@@ -1,0 +1,27 @@
+/* style.css */
+title {
+    text-align: center;
+}
+
+#textbox {
+  margin-left: 2in;
+  margin-right: 2in;
+  text-align: justify;
+  }
+
+#intro {
+  text-align: center;
+}
+
+#buttonImage {
+  display: none;
+
+}
+
+#button {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
